@@ -1,0 +1,85 @@
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.timer-top {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  margin-bottom: 20px;
+}
+
+.input-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 15px;
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.input-con input {
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+
+.input-con input::-webkit-inner-spin-button,
+.input-con::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input-con button {
+  background-color: #088e39;
+  border: none;
+  outline: none;
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+}
+
+.error {
+  color: #e64848;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.timer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.timer div {
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+
+.timer div span {
+  color: #18b10a;
+  width: fit-content;
+  margin-left: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.timer button {
+  background-color: #e64848;
+  border: none;
+  outline: none;
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+}

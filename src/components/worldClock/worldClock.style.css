@@ -1,0 +1,39 @@
+.world-clock-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.world-clock {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.world-time {
+  font-size: 26px;
+  font-weight: bolder;
+  line-height: 30px;
+  color: blueviolet;
+}
+
+.zone-selector {
+  width: 50px;
+}
+
+.zone-selector select {
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  padding: 5px 5px 5px 0;
+}
+
+.error {
+  color: #e64848;
+  font-size: 14px;
+  font-weight: 500;
+}
