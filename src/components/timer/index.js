@@ -48,7 +48,7 @@ export default function Timer() {
       setTimers((prevTimers) => [...prevTimers, newTimer]);
       setStartTime('');
     } else {
-      setError('*Value is to big max value 9999999');
+      setError('*Value is too big max value 9999999');
     }
   };
 

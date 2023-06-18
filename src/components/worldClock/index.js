@@ -11,7 +11,7 @@ export default function WorldClock() {
     const getCurrTime = async () => {
       try {
         const response = await axios.get(
-          `http://worldtimeapi.org/api/timezone/${timeZone}`
+          `https://worldtimeapi.org/api/timezone/${timeZone}`
         );
 
         setError('');
